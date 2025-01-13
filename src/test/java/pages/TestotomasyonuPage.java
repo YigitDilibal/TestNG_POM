@@ -44,6 +44,16 @@ public class TestotomasyonuPage {
     @FindBy (xpath = "(//*[.='Logout'])[2]")
     public WebElement logoutButonu;
 
+    @FindBy (className = "add-to-cart")
+    public WebElement urunSayfasindakiSepeteEkleButonu;
+
+    @FindBy (xpath = "(//*[@class='e-cart'])[2]")
+    public WebElement urunSayfasindakiYourCartButonu;
+
+    @FindBy (xpath = "//*[@class='product-title text-center']")
+    public WebElement yourCartSayfasindakiUrunIsmi;
+
+
 
 
 
