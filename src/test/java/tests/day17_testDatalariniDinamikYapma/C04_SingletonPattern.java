@@ -11,7 +11,7 @@ public class C04_SingletonPattern {
     public void test01(){
 
         // testotomasyonu sayfasina gidin
-        Driver.getDriver().get(ConfigReader.getProperty("toUrl"));
+        // Driver.getDriver().get(ConfigReader.getProperty("toUrl"));
 
         /*
             TestNG POM framework
@@ -21,7 +21,18 @@ public class C04_SingletonPattern {
             farkli kullanimlarin da onune gecmek icin
             Driver class'inda Singleton Pattern kullanmayi tercih etmislerdir.
 
+            Singleton Pattern
+            Constructor'i gorunur hale getirip
+            access modifier'ini Private yaparak
+            constructor'un kullanilmasini engeller ve
+            kullandigimiz class'dan obje olusturulmasinin onune gecer
+
          */
+
+        // Driver driver = new Driver();
+        // driver.getDriver().get(ConfigReader.getProperty("toUrl"));
+
+        // driver.driver.get(ConfigReader.getProperty("toUrl"));
 
 
 
