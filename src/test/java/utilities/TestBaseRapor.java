@@ -37,8 +37,8 @@ public abstract class TestBaseRapor {
 
         extentReports.setSystemInfo("Enviroment","live");
         extentReports.setSystemInfo("Browser", ConfigReader.getProperty("browser")); // chrome, firefox
-        extentReports.setSystemInfo("Automation Engineer", "Hamza KAVAS");
-        extentSparkReporter.config().setDocumentTitle("TestNG Test");
+        extentReports.setSystemInfo("Automation Engineer", "Yigit DILIBAL");
+        extentSparkReporter.config().setDocumentTitle("TestNG Test Reports");
         extentSparkReporter.config().setReportName("Html Reports");
     }
     // Her test methodundan sonra eğer assertion failed olursa, ekran görüntüsü alıp rapora ekliyor
