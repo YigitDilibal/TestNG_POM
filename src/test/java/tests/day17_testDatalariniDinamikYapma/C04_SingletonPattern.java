@@ -37,8 +37,8 @@ public class C04_SingletonPattern {
 
 
 
-        ReusableMethods.bekle(2);
-        Driver.quitDriver();
+        // ReusableMethods.bekle(2);
+        //Driver.quitDriver();
 
 
     }

@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<!--
+Mini regression icin
+        day15, day16, ve day17 package'lerini toplu olarak calistiralim
+-->
+
+
+<suite name="Mini Regression suite">
+    
+    <test name="Mini Regression testleri">
+        
+        <packages>
+
+            <package name="tests.day15_testNG_FrameworkOlusturma"/>
+            <package name="tests.day16_PageClassKullanimi"/>
+            <package name="tests.day17_testDatalariniDinamikYapma"/>
+
+            
+        </packages>
+        
+    </test>
+    
+</suite>

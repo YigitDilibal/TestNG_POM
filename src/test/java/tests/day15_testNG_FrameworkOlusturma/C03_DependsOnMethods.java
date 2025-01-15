@@ -70,7 +70,7 @@ public class C03_DependsOnMethods {
     }
 
     @Test (dependsOnMethods = "phoneAramaTesti")
-    public void arunIsimTesti(){
+    public void urunIsimTesti(){
 
         driver.findElement(By.xpath("(//*[@*='prod-img'])[1]")).click();
 

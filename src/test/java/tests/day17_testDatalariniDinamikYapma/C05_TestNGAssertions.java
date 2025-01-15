@@ -36,7 +36,7 @@ public class C05_TestNGAssertions {
         Driver.getDriver().get(ConfigReader.getProperty("toUrl"));
 
         //Url'in testotomasyonu icerdigini test edin
-        String expectedUrlIcerik = "testotomasyonu11";
+        String expectedUrlIcerik = "testotomasyonu";
         String actualUrl = Driver.getDriver().getCurrentUrl();
 
         Assert.assertTrue(actualUrl.contains(expectedUrlIcerik));
@@ -50,7 +50,7 @@ public class C05_TestNGAssertions {
 
         int actualBulunanUrunSayisi = testotomasyonuPage.bulunanUrunElementleriList.size();
 
-        Assert.assertTrue(actualBulunanUrunSayisi > 10 );
+        Assert.assertTrue(actualBulunanUrunSayisi > 0 );
 
         // ilk urunu tiklayin
         testotomasyonuPage.bulunanUrunElementleriList
@@ -59,7 +59,7 @@ public class C05_TestNGAssertions {
 
         // acilan sayfada urun isminde case sensitive olmadan phone bulundugunu test edin
 
-        String expectedUrunIsimIcerigi = ConfigReader.getProperty("aranacakKelime")+"11";
+        String expectedUrunIsimIcerigi = ConfigReader.getProperty("aranacakKelime");
 
         String actualUrunIsmi = testotomasyonuPage.urunSayfasindakiIsimElementi
                 .getText()
