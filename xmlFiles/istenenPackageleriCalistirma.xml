@@ -13,10 +13,7 @@ Mini regression icin
         
         <packages>
 
-            <package name="tests.day15_testNG_FrameworkOlusturma"/>
-            <package name="tests.day16_PageClassKullanimi"/>
-            <package name="tests.day17_testDatalariniDinamikYapma"/>
-
+            <package name="tests.day19_paralelCalistirma_htmlReport"/>
             
         </packages>
         
