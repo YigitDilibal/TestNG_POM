@@ -9,7 +9,7 @@ import utilities.Driver;
 public class C02_TestOtomasyonuFiyatTesti {
 
 
-    @Test
+    @Test (groups = {"E2E"})
     public void fiyatTesti(){
 
         // testotomasyonu anasayfaya gidin

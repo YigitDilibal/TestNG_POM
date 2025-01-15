@@ -23,7 +23,7 @@ public class C01_SoftAssert {
      */
 
 
-    @Test
+    @Test (groups = {"E2E"})
     public void aramaTesti(){
         // testotomasyonu anasayfaya gidin
         Driver.getDriver().get(ConfigReader.getProperty("toUrl"));

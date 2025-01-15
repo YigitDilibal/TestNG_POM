@@ -30,7 +30,7 @@ public class C05_TestNGAssertions {
      */
 
 
-    @Test
+    @Test (groups = {"smoke"})
     public void aramaTesti(){
         // testotomasyonu anasayfaya gidin
         Driver.getDriver().get(ConfigReader.getProperty("toUrl"));
