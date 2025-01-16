@@ -3,14 +3,22 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import utilities.Driver;
+import utilities.DriverCross;
+import utilities.TestBaseCross;
 
 import java.util.List;
 
-public class TestotomasyonuPage {
+public class TestotomasyonuPage extends TestBaseCross{
 
     public  TestotomasyonuPage(){
         PageFactory .initElements(Driver.getDriver(),this);
+    }
+
+    public TestotomasyonuPage(String cross) {
+        PageFactory.initElements(DriverCross.getDriver(browserName), this);
     }
 
 
