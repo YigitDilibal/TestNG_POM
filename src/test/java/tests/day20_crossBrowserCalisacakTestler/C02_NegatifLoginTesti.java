@@ -84,6 +84,7 @@ public class C02_NegatifLoginTesti extends TestBaseCross {
         accountLinki.click();
         ReusableMethods.bekle(1);
 
+
         //3-  3 farkli test method’u olusturun.
         // - gecersiz email, gecersiz password girin
         driver.findElement(By.id("email"))

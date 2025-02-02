@@ -26,6 +26,7 @@ public class C01_PozitifLoginTesti extends TestBaseCross {
         // 3- Kullanici email'i olarak gecerli email girin
         testotomasyonuPage.loginSayfasiEmailKutusu.sendKeys(ConfigReader.getProperty("toGecerliEmail"));
 
+
         // 4- Kullanici sifresi olarak gecerli password girin
         testotomasyonuPage.loginSayfasiPasswordKutusu.sendKeys(ConfigReader.getProperty("toGecerliPassword"));
 

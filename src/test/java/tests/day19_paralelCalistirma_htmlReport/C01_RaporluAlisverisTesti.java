@@ -12,11 +12,14 @@ public class C01_RaporluAlisverisTesti extends TestBaseRapor {
     /*
         Bir test method'unun raporlu olmasini istiyorsaniz
         1- extends TestBaseRapor ile class'i TestBaseRapor'a child yapariz
+
         2- Page Object Model'e uygun olarak test adimlari icin
            gerekli kodlari yazariz
+
         3- HER TEST METHOD'u icin extentTest objesi olusturup
            o test method'una raporda gorunecek bir isim
            ve bir aciklama yaziyoruz
+
         4- Raporda gorunmesini istedigimiz her adimi
            extentTest objesi yardimiyla olusturun
 

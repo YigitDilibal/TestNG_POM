@@ -17,6 +17,7 @@ public class ConfigReader {
            properties objesine yuklenen key-value'lerden
            bizim verecegimiz key'in karsiligindaki value'yu alip
            test method'una dondurur
+
      */
     static Properties properties; // configuration.properties'deki tum key-value'ler yuklendi
 

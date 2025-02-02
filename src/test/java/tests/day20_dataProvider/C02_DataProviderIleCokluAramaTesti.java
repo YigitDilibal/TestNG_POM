@@ -18,6 +18,7 @@ public class C02_DataProviderIleCokluAramaTesti {
     // "phone", "dress", "java", "samsung", "nutella", "apple", "cokoprens"
 
 
+
     /*
         Data provider,
         test method'unun disindan bize test edilecek data'lari
@@ -36,6 +37,7 @@ public class C02_DataProviderIleCokluAramaTesti {
         dataProvider yazip, intelliJ'den method'u olusturmasini isteyebiliriz.
      3- @DataProvider notasyonuna sahip olan method'un
      MUTLAKA 2 katli Object array dondurmesi gerekir.
+
 
      */
 

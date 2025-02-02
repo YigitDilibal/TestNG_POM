@@ -19,6 +19,7 @@ public class C01_CokluAramaTesti {
     // bir liste olarak verilen urunleri
     // tek tek aratin ve her urunun sayfada bulunabildigini test edin
 
+
     @Test
     public void cokluAramaTesti(){
 
