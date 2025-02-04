@@ -27,6 +27,7 @@ public abstract class TestBaseRapor {
         //oluşturmak istediğimiz raporu (html formatında) başlatıyoruz,
         // filePath ile dosya yolunu belirliyoruz.
         // date class'i ile raporumuza tarih etiketi ekliyoruz
+
         extentSparkReporter = new ExtentSparkReporter(filePath);
         extentReports.attachReporter(extentSparkReporter);
 

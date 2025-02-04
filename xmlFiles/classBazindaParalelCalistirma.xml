@@ -33,7 +33,6 @@
             <class name="tests.day18_softAsser_xmlFiles.C01_SoftAssert"/>
             <class name="tests.day18_softAsser_xmlFiles.C02_SoftAssert"/>
 
-
         </classes>
     </test>
 </suite>

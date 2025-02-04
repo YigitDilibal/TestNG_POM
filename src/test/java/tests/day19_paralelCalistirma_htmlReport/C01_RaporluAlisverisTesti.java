@@ -22,7 +22,6 @@ public class C01_RaporluAlisverisTesti extends TestBaseRapor {
 
         4- Raporda gorunmesini istedigimiz her adimi
            extentTest objesi yardimiyla olusturun
-
      */
 
     @Test

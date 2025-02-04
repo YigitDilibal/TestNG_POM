@@ -7,6 +7,7 @@ Mini regression icin
 -->
 
 
+
 <suite name="Mini Regression suite">
     
     <test name="Mini Regression testleri">

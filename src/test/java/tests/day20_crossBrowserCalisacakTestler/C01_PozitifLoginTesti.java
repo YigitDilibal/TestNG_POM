@@ -46,6 +46,7 @@ public class C01_PozitifLoginTesti extends TestBaseCross {
 
         ReusableMethods.bekle(2);
         driver.quit();
+
     }
 
 

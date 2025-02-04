@@ -29,7 +29,6 @@ public class C04_DataProviderIlenegatifLoginTesti extends TestBaseRapor {
                 , {"yusuf@mmail.com","456789"}, {"wise@gmail.com","12345"}, {"sumeyra@smail.com","342321"}, {"canan@cmail.com","987098"}};
 
         return NegatifEmailPasswordArrayi;
-
     }
 
 
